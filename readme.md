@@ -1,4 +1,4 @@
-##\ Look what you made us do?
+## Look what you made us do?
 
 A Data-Driven Exploration of Taylor's Discography
 
