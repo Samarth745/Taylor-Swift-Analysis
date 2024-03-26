@@ -1,11 +1,12 @@
-## Look what you made us do?
+## A Data-Driven Exploration of Taylor's Discography
 
-A Data-Driven Exploration of Taylor's Discography
+Look what you made us do? 
 
 This project is a deep dive into Taylor Swift's music, We're gonna use the power of data to uncover the hidden secrets within her discography.
 
-First we start with ETL to finally create 3 data sets that we require for our Analysis
+## First we start with ETL to finally create 3 data sets that we require for our Analysis
 ## The Gathering 
+<a href="https://github.com/Samarth745/Taylor-Swift-Analysis/blob/main/Notebooks/TS_%20Data%20Extraction%20and%20ETL.ipynb">Check out Notebook: Data Gathering</a>
 ### DATA 1: Feature Frenzy: The Invisible String ️‍♀️
 
 We're bringing in Spotify's API like a decoder ring for Taylor's music.  This lets us create data points that describe a song's sonic personality,  like:
@@ -27,9 +28,10 @@ Based on this analysis, we'll classify each song into three categories:
 * Breakup Songs
 * The ever-intriguing "Unknown" Category
 
+## Now that we are "All too well" prepared with data we can "speak now" of the Analysis
 ## The Analysis and Showcasing
+<a href="https://github.com/Samarth745/Taylor-Swift-Analysis/blob/main/Notebooks/TS_%20Analysis%20Charts.ipynb">Check out Notebook: Data Analysis</a>
 
-## EDA
 - **TS Superstar Status**: 
 How popular is Taylor, really? We'll unveil the answer and delve into which albums reign supreme. Plus, we'll see if catchy tunes or heartbreak anthems rule the charts.
 
