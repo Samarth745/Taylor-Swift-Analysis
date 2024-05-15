@@ -1,49 +1,43 @@
-## A Data-Driven Exploration of Taylor's Discography
+# A Data-Driven Exploration of Taylor's Discography
 
-Look what you made us do? 
+## Introduction
+This project embarks on a comprehensive exploration of Taylor Swift's music, employing the power of data analysis to unveil the hidden intricacies within her discography.
 
-This project is a deep dive into Taylor Swift's music, We're gonna use the power of data to uncover the hidden secrets within her discography.
+![Image](https://img.freepik.com/free-photo/multimedia-entertainment-music-bars-display_53876-21344.jpg?t=st=1715785512~exp=1715789112~hmac=696da8ec82978d9a73871ad888f70712f7d9eecb40dfcd64f6d17ca0f3003582&w=740)
 
-## First we start with ETL to finally create 3 data sets that we require for our Analysis
-## The Gathering 
-<a href="https://github.com/Samarth745/Taylor-Swift-Analysis/blob/main/Notebooks/TS_%20Data%20Extraction%20and%20ETL.ipynb">Check out Notebook: Data Gathering</a>
-### DATA 1: Feature Frenzy: The Invisible String ️‍♀️
+## The Gathering
+In the initial phase, we conduct an Extract, Transform, Load (ETL) process to curate three essential datasets required for our analysis.
 
-We're bringing in Spotify's API like a decoder ring for Taylor's music.  This lets us create data points that describe a song's sonic personality,  like:
+## DataSet
+- We have used Data Set From Kaggle which includes all Taylor Swift Song details. 
+- Using Machine Learning and API techniques we have enhanced the Data Set from Kaggle for a much Insightfull Analysis
 
-* `Danceability:` How likely are you to **shake it off** to this song? <br>
-* `Valence:` Happy and carefree like **22** or a touch melancholic like **Teardrops on My Guitar**? <br>
+### DATA 1: Feature Extraction
+Feature Frenzy: The Invisible String:
 
-### DATA 2: Blank Space: (Fill it with Repeated Rhymes)
+By leveraging Spotify's API, we decode Taylor's music, generating data points that explain each song's sonic attributes, including:
+- Danceability: The propensity of a song to induce movement.
+- Valence: Ranging from cheerful and carefree to melancholic.
+- etc
 
-Ever wondered which words Taylor loves to use together? Or how her rhyming style has evolved throughout her career?  <br>This is where we dissect her rhymes line by line and see if they're **never ever getting back together**.
+### DATA 2: Understanding Rhymes: 
+Blank Space: (Fill it with Repeated Rhymes)
+Delving into Taylor's lyrical prowess, we dissect her rhymes to understand her evolving rhyming style and the frequent word pairings she employs.
 
-### DATA 3: Call It What You Want (Love Story, Breakup Song, You Decide!)
+### DATA 3: Sentiment Analysis of Songs Understanding Categories
+Call It What You Want (Love Story, Breakup Song, You Decide!)
+We categorize words into lists associated with "love song" and "breakup," employing sentiment analysis to discern the emotional tone of Taylor's lyrics.
 
-We've compiled a list of words that scream "love song" and another list that embodies all things "breakup."<br> Then, we'll use sentiment analysis tools to understand the overall emotional tone of the lyrics.<br> Sad words = breakup anthem, happy words = love song celebration!
+## Analysis
+- With all the data we have, we start looking closely at Taylor's music to find interesting things and show how her music has changed over time.
+- We check how popular Taylor is and which of her albums are liked the most. We also see if people prefer her catchy songs or the ones about heartbreak.
+- We study the different kinds of music Taylor makes, from songs that make you want to dance to ones that make you feel emotional. We see how all her songs fit together.
 
-Based on this analysis, we'll classify each song into three categories:
+### Sentiments Secrets
+We look deeply into the feelings Taylor's music brings out, from happy songs that make you want to celebrate to sad ones that might make you cry. We also see if there's a connection between the emotions in her songs and the music itself.
 
-* Love Songs
-* Breakup Songs
-* The ever-intriguing "Unknown" Category
+### Lyric Len
+Exploring Taylor's songwriting techniques, we analyze her favored rhymes and signature rhyme schemes, providing insights into her lyrical craftsmanship.
 
-## Now that we are "All too well" prepared with data we can "speak now" of the Analysis
-## The Analysis and Showcasing
-<a href="https://github.com/Samarth745/Taylor-Swift-Analysis/blob/main/Notebooks/TS_%20Analysis%20Charts.ipynb">Check out Notebook: Data Analysis</a>
-
-- **TS Superstar Status**: 
-How popular is Taylor, really? We'll unveil the answer and delve into which albums reign supreme. Plus, we'll see if catchy tunes or heartbreak anthems rule the charts.
-
-- **Musical Mashups**: 
-We'll break down the music itself, from those dance floor-worthy beats to the emotional ballads. We'll also crack the code on her different song styles and see how they all work together.
-
-- **Sentiments Secrets**: 
-Does Taylor make you wanna jump for joy or cry into your pillow? We'll analyze the emotional core of her music, from the most positive jams to the deepest tearjerkers. We might even see if there's a link between the feels and the music itself.
-
-- **Lyric Len**: 
-Let's get wordy! We'll peek into Taylor's songwriting toolbox and see which rhymes she uses the most. We'll also zoom in on some of her signature rhyme schemes, like those clever "bar & car" ones. 
-
-
-
-
+## Conclusion
+Through this data-driven exploration, we gain a deeper understanding of Taylor Swift's discography, unraveling the complexities of
