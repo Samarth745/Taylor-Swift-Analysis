@@ -40,4 +40,4 @@ We look deeply into the feelings Taylor's music brings out, from happy songs tha
 Exploring Taylor's songwriting techniques, we analyze her favored rhymes and signature rhyme schemes, providing insights into her lyrical craftsmanship.
 
 ## Conclusion
-Through this data-driven exploration, we gain a deeper understanding of Taylor Swift's discography, unraveling the complexities of
+Through this data-driven exploration, we gain a deeper understanding of Taylor Swift's discography, unraveling the complexities.
